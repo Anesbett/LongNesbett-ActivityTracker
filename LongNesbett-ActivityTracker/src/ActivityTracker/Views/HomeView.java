@@ -1,4 +1,6 @@
-package ActivityTracker;
+package ActivityTracker.Views;
+
+import ActivityTracker.ActivityTracker;
 
 public class HomeView {
 

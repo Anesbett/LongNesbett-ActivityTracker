@@ -1,4 +1,6 @@
-package ActivityTracker;
+package ActivityTracker.Models;
+
+import ActivityTracker.ActivityTracker;
 
 public class User {
 

@@ -1,5 +1,9 @@
 package ActivityTracker;
 
+import ActivityTracker.Controllers.HomeController;
+import ActivityTracker.Models.User;
+import ActivityTracker.Views.HomeView;
+
 public class ActivityTracker {
     public static void main(String[] args) {
 

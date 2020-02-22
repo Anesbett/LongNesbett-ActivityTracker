@@ -1,4 +1,7 @@
-package ActivityTracker;
+package ActivityTracker.Controllers;
+
+import ActivityTracker.Views.HomeView;
+import ActivityTracker.Models.User;
 
 public class HomeController {
     private User model;
