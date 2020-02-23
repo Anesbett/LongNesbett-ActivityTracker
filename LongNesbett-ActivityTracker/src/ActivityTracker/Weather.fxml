@@ -8,16 +8,16 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
 
-<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.Home">
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActivityTracker.Views.WeatherView">
    <children>
       <Pane layoutX="81.0" prefHeight="300.0" prefWidth="219.0" style="-fx-background-color: #474747;" />
       <StackPane prefHeight="300.0" prefWidth="82.0" style="-fx-background-color: #1D1D1D;">
          <children>
             <Button centerShape="false" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="75.0" prefWidth="80.0" style="-fx-background-color: #1D1D1D; -fx-border-color: WHITE;" text="Home" textFill="WHITE" StackPane.alignment="TOP_CENTER">
                <graphic>
-                  <ImageView fitHeight="50.0" fitWidth="50.0">
+                  <ImageView fitHeight="50.0" fitWidth="45.0">
                      <image>
-                        <Image url="@Views/images/home_Selected.png" />
+                        <Image url="@Views/images/home_notSelected.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -39,9 +39,9 @@
                   <Insets top="75.0" />
                </StackPane.margin>
                <graphic>
-                  <ImageView fitHeight="50.0" fitWidth="50.0">
+                  <ImageView fitHeight="50.0" fitWidth="45.0">
                      <image>
-                        <Image url="@Views/images/weather_notSelected.png" />
+                        <Image url="@Views/images/weather_selected.png" />
                      </image>
                   </ImageView>
                </graphic>
