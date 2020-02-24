@@ -7,6 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="views.Home">
    <children>
@@ -60,5 +61,30 @@
             </Button>
          </children>
       </StackPane>
+      <Pane layoutX="103.0" prefHeight="125.0" prefWidth="172.0" style="-fx-background-color: #474747;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="125.0" style="-fx-background-color: #474747;" text="12:00" textFill="WHITE">
+               <font>
+                  <Font name="Lucida Grande" size="45.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <Button accessibleRole="TEXT" contentDisplay="TEXT_ONLY" layoutX="110.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: #474747;" text="This Is a Sample Goal" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button accessibleRole="TEXT" contentDisplay="GRAPHIC_ONLY" layoutX="125.0" layoutY="115.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #474747;" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0">
+               <image>
+                  <Image url="@Views/images/Sun.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
    </children>
 </AnchorPane>
