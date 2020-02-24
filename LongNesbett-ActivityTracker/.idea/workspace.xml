@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LongNesbett-ActivityTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LongNesbett-ActivityTracker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/ActivityTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/ActivityTracker.class" afterDir="false" />
@@ -306,7 +305,8 @@
       <option name="presentableId" value="Default" />
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
-      <workItem from="1582403443773" duration="1844000" />
+      <workItem from="1582403443773" duration="1880000" />
+      <workItem from="1582579940064" duration="548000" />
     </task>
     <servers />
   </component>
