@@ -5,7 +5,10 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.StackPane?>
 
 <AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActivityTracker.Views.WeatherView">
@@ -60,5 +63,32 @@
             </Button>
          </children>
       </StackPane>
+      <GridPane layoutX="81.0" prefHeight="300.0" prefWidth="219.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="224.0" minHeight="0.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="200.0" minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="200.0" minHeight="10.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="200.0" minHeight="10.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Pane>
+               <children>
+                  <Button contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="75.0" prefWidth="80.0" style="-fx-background-color: #1D1D1D;" text="Settings" textFill="WHITE">
+                     <graphic>
+                        <ImageView fitHeight="50.0" fitWidth="40.0">
+                           <image>
+                              <Image url="@Views/images/Sun.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </Pane>
+         </children>
+      </GridPane>
    </children>
 </AnchorPane>
