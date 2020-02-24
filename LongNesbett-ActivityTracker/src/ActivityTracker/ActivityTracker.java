@@ -35,7 +35,7 @@ public class ActivityTracker {
         user.setUsersAge(27);
         user.setUsersWeight(225);
         user.setUsersHeight(78);
-        user.setUsersGoal("I want to stop being a fat boy.");
+        user.setUsersGoal("I want to stop being fat.");
         return user;
     }
 }
