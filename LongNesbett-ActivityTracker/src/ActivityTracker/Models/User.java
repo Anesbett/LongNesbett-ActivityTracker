@@ -1,7 +1,5 @@
 package ActivityTracker.Models;
 
-import ActivityTracker.ActivityTracker;
-
 public class User {
 
     // Define all user stat variables for the model
