@@ -46,7 +46,7 @@
                <graphic>
                   <ImageView fitHeight="30.0" fitWidth="27.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../Views/images/arrow_right.png" />
+                        <Image url="@../ActivityTracker/Views/images/arrow_right.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -55,7 +55,7 @@
                <graphic>
                   <ImageView fitHeight="25.0" fitWidth="16.0" pickOnBounds="true" preserveRatio="true">
                      <image>
-                        <Image url="@../Views/images/arrow_left.png" />
+                        <Image url="@../ActivityTracker/Views/images/arrow_left.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -64,33 +64,33 @@
             <Button layoutX="73.0" layoutY="197.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="31.0" style="-fx-background-color: 000000;" />
             <ImageView fitHeight="17.0" fitWidth="12.0" layoutX="85.0" layoutY="217.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Views/images/arrow_right.png" />
+                  <Image url="@../ActivityTracker/Views/images/arrow_right.png" />
                </image>
             </ImageView>
             <Button layoutX="-2.0" layoutY="208.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="31.0" style="-fx-background-color: 000000;" />
             <ImageView fitHeight="14.0" fitWidth="8.0" layoutX="15.0" layoutY="219.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Views/images/arrow_left.png" />
+                  <Image url="@../ActivityTracker/Views/images/arrow_left.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="17.0" fitWidth="12.0" layoutX="179.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Views/images/arrow_right.png" />
+                  <Image url="@../ActivityTracker/Views/images/arrow_right.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="14.0" fitWidth="8.0" layoutX="115.0" layoutY="220.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Views/images/arrow_left.png" />
+                  <Image url="@../ActivityTracker/Views/images/arrow_left.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="17.0" fitWidth="12.0" layoutX="73.0" layoutY="268.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Views/images/arrow_right.png" />
+                  <Image url="@../ActivityTracker/Views/images/arrow_right.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="14.0" fitWidth="8.0" layoutX="24.0" layoutY="270.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../Views/images/arrow_left.png" />
+                  <Image url="@../ActivityTracker/Views/images/arrow_left.png" />
                </image>
             </ImageView>
          </children></Pane>
@@ -100,7 +100,7 @@
                <graphic>
                   <ImageView fitHeight="50.0" fitWidth="50.0">
                      <image>
-                        <Image url="@../Views/images/home_notSelected.png" />
+                        <Image url="@../ActivityTracker/Views/images/home_notSelected.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -112,7 +112,7 @@
                <graphic>
                   <ImageView fitHeight="50.0" fitWidth="40.0">
                      <image>
-                        <Image url="@../Views/images/Profile_notSelected.png" />
+                        <Image url="@../ActivityTracker/Views/images/Profile_notSelected.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -124,7 +124,7 @@
                <graphic>
                   <ImageView fitHeight="50.0" fitWidth="50.0">
                      <image>
-                        <Image url="@../Views/images/weather_notSelected.png" />
+                        <Image url="@../ActivityTracker/Views/images/weather_notSelected.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -136,7 +136,7 @@
                <graphic>
                   <ImageView fitHeight="50.0" fitWidth="40.0">
                      <image>
-                        <Image url="@../Views/images/settings_selected.png" />
+                        <Image url="@../ActivityTracker/Views/images/settings_selected.png" />
                      </image>
                   </ImageView>
                </graphic>
