@@ -1,28 +1,61 @@
 package ActivityTracker;
-
 import ActivityTracker.Controllers.HomeController;
 import ActivityTracker.Models.User;
 import ActivityTracker.Views.HomeView;
 
-public class ActivityTracker {
-    public static void main(String[] args) {
+import java.io.FileInputStream;
+import java.io.IOException;
 
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.layout.VBox;
+import javafx.stage.Stage;
+
+
+public class ActivityTracker extends Application {
+    public static void main(String[] args) {
+        Application.launch(args);
         // Retrieve users stats based on values assigned
-        User model  = retriveUserInformation();
+        // model  = retriveUserInformation();
 
         // Create a view to write user details on scene
-        HomeView view = new HomeView();
+        //HomeView view = new HomeView();
 
-        HomeController controller = new HomeController(model, view);
+        //HomeController controller = new HomeController(model, view);
 
         // The controllers view must be updated in order to reflect the changes
-        controller.updateView();
+        //controller.updateView();
 
         // Update the models data
         //controller.setUsersName("John");
 
         //controller.updateView();
     }
+
+    @Override
+    public void start(Stage stage) throws IOException
+    {
+        // Create the FXMLLoader
+        FXMLLoader loader = new FXMLLoader();
+        // Path to the FXML File
+        String fxmlDocPath = "../fxml/Home.fxml";
+        FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
+
+        // Create the Pane and all Details
+        VBox root = (VBox) loader.load(fxmlStream);
+
+        // Create the Scene
+        Scene scene = new Scene(root);
+        // Set the Scene to the Stage
+        stage.setScene(scene);
+        // Set the Title to the Stage
+        stage.setTitle("A simple FXML Example");
+        // Display the Stage
+        stage.show();
+    }
+
+
 
 
     /**
