@@ -3,12 +3,46 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongNesbett-ActivityTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LongNesbett-ActivityTracker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/ActivityTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/ActivityTracker.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/HomeController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/HomeView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/HomeView.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Home.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Profile.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Settings.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/HomeView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/images/Profile_notSelected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/images/Sun.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/images/home_Selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/images/home_notSelected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/images/profile_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/images/settings_notSelected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/images/settings_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/images/weather_notSelected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/images/weather_selected.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Weather.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/META-INF/LongNesbett-ActivityTracker.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/META-INF/LongNesbett-ActivityTracker.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ActivityTracker/ActivityTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/ActivityTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Controllers/HomeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Controllers/HomeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Home.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Profile.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Settings.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/HomeView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/Cloudy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/Cloudy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/PartlyCloudy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/PartlyCloudy.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/Profile_notSelected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/Profile_notSelected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/Screen Shot 2020-02-24 at 6.31.29 PM.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/Screen Shot 2020-02-24 at 6.31.29 PM.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/Sun.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/Sun.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/apply_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/apply_button.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/arrow_left.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/arrow_left.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/arrow_right.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/arrow_right.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/home_Selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/home_Selected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/home_notSelected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/home_notSelected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/profile_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/profile_selected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/settings_notSelected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/settings_notSelected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/settings_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/settings_selected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/weather_notSelected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/weather_notSelected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/images/weather_selected.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/img/weather_selected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Weather.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../prototypes/HelloWorld/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../prototypes/HelloWorld/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,12 +96,22 @@
     <favorites_list name="JavaFxApplication" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ActivityTracker/ActivityTracker.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Views/Profile.fxml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Controllers/HomeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="582">
+              <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,12 +120,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Models/User.java">
+        <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Controllers/NavigationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="135">
+              <caret line="9" selection-start-line="9" selection-end-line="25" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Views/Home.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Views/Stage.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
     </leaf>
@@ -89,6 +156,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -104,16 +172,24 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/ActivityTracker/Views/HomeView.java" />
+        <option value="$PROJECT_DIR$/src/ActivityTracker/NavigationController.java" />
         <option value="$PROJECT_DIR$/src/ActivityTracker/ActivityTracker.java" />
+        <option value="$PROJECT_DIR$/src/ActivityTracker/Views/HomeScene.fxml" />
+        <option value="$PROJECT_DIR$/src/ActivityTracker/Controllers/NavigationController.java" />
+        <option value="$PROJECT_DIR$/src/ActivityTracker/Views/Profile.fxml" />
+        <option value="$PROJECT_DIR$/src/ActivityTracker/Views/Home.fxml" />
+        <option value="$PROJECT_DIR$/src/ActivityTracker/Views/Stage.fxml" />
+        <option value="$PROJECT_DIR$/src/ActivityTracker/Controllers/HomeController.java" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="74" />
-    <option name="y" value="68" />
-    <option name="width" value="1504" />
-    <option name="height" value="850" />
+    <option name="x" value="31" />
+    <option name="y" value="28" />
+    <option name="width" value="1596" />
+    <option name="height" value="940" />
   </component>
   <component name="ProjectId" id="1YB63Vsmkhy61TZHcv1HkqivGr0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -125,7 +201,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,19 +232,13 @@
               <item name="LongNesbett-ActivityTracker" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="ActivityTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="Models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LongNesbett-ActivityTracker" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LongNesbett-ActivityTracker" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ActivityTracker" type="462c0819:PsiDirectoryNode" />
               <item name="Views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -187,7 +256,7 @@
     <property name="OverrideImplement.combined" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582568715036" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583793712878" />
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -311,35 +380,34 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="74" y="68" width="1504" height="850" extended-state="0" />
-    <editor active="true" />
+    <frame x="31" y="28" width="1596" height="940" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.249658" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25997427" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3298153" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22287735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32900944" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,12 +437,12 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Profile.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Settings.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Models/User.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -383,10 +451,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Home.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="140" lean-forward="true" selection-start-line="11" selection-start-column="140" selection-end-line="11" selection-end-column="140" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Views/HomeView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Controllers/ProfileController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Views/Home.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ActivityTracker/ActivityTracker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="55" lean-forward="true" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+        <state relative-caret-position="305">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Views/Profile.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Views/Stage.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Controllers/NavigationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ActivityTracker/Controllers/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="80" column="1" selection-start-line="80" selection-start-column="1" selection-end-line="80" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

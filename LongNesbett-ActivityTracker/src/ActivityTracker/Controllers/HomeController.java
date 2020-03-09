@@ -1,96 +1,62 @@
 package ActivityTracker.Controllers;
 
-import ActivityTracker.Views.HomeView;
-import ActivityTracker.Models.User;
+import java.net.URL;
+import java.util.ResourceBundle;
 
-public class HomeController {
-    private User model;
-    private HomeView view;
+import ActivityTracker.ActivityTracker;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Label;
+import javafx.scene.layout.BorderPane;
+import javafx.scene.layout.Pane;
 
-    public HomeController(User model, HomeView view){
-        this.model = model;
-        this.view = view;
+
+public class HomeController implements Initializable {
+
+
+    //@FXML // fx:id="usernameField"
+    //private TextField usernameField; // Value injected by FXMLLoader
+
+    @FXML
+    private Label label; // Value injected by FXMLLoader
+
+    @FXML
+    private BorderPane mainStage; // Value injected by FXMLLoader
+
+    @FXML
+    private void displayHomeScene(ActionEvent event) {
+        System.out.println("You clicked me");
+        NavigationController object = new NavigationController();
+        Pane view = object.getPage("Home");
+        mainStage.setCenter(view);
     }
 
-    /**
-     * Controller method that interacts with the model to set the users name
-     */
-    public void setUsersName(String name){
-        model.setUsersName(name);
+    @FXML
+    private void displayProfileScene(ActionEvent event) {
+        System.out.println("You clicked me");
+        NavigationController object = new NavigationController();
+        Pane view = object.getPage("Profile");
+        mainStage.setCenter(view);
     }
 
-    /**
-     * Controller method that interacts with the model to retrieve the users name
-     * @return  String  returns the users name
-     */
-    public String getUsersName(){
-        return model.getUsersName();
-    }
+    @Override
+    public void initialize(URL location, ResourceBundle resources) {
+        /*
+        assert loginButton != null : "fx:id=\"loginButton\" was not injected: check your FXML file 'LoginGUI.fxml'.";
+        assert newUserButton != null : "fx:id=\"newUserButton\" was not injected: check your FXML file 'LoginGUI.fxml'.";
+        assert passwordField != null : "fx:id=\"passwordField\" was not injected: check your FXML file 'LoginGUI.fxml'.";
+        assert usernameField != null : "fx:id=\"usernameField\" was not injected: check your FXML file 'LoginGUI.fxml'.";
 
-    /**
-     * Controller method that interacts with the model to set the users age
-     */
-    public void setUsersAge(Integer age){
-        model.setUsersAge(age);
-    }
 
-    /**
-     * Controller method that interacts with the model to retrieve the users age
-     * @return  Integer  returns the users age
-     */
-    public Integer getUsersAge(){
-        return model.getUsersAge();
-    }
+        //The button event for the login button
+        loginButton.setOnAction(new EventHandler<ActionEvent>() {
 
-    /**
-     * Controller method that interacts with the model to set the users weight
-     */
-    public void setUsersWeight(Integer weight){
-        model.setUsersWeight(weight);
-    }
-
-    /**
-     * Controller method that interacts with the model to retrieve the users weight
-     * @return  Integer  returns the users weight
-     */
-    public Integer getUsersWeight(){
-        return model.getUsersWeight();
-    }
-
-    /**
-     * Controller method that interacts with the model to set the users height
-     */
-    public void setUsersHeight(Integer height){
-        model.setUsersHeight(height);
-    }
-
-    /**
-     * Controller method that interacts with the model to retrieve the users height
-     * @return  Integer  returns the users height
-     */
-    public Integer getUsersHeight(){
-        return model.getUsersHeight();
-    }
-
-    /**
-     * Controller method that interacts with the model to set the users goal
-     */
-    public void setUsersGoal(String goal){
-        model.setUsersGoal(goal);
-    }
-
-    /**
-     * Controller method that interacts with the model to retrieve the users goal
-     * @return  String  returns the users goal
-     */
-    public String getUsersGoal(){
-        return model.getUsersGoal();
-    }
-
-    /**
-     * Controller method that passes the model information to the view
-     */
-    public void updateView(){
-        view.printUserDetails(model.getUsersName(), model.getUsersAge(), model.getUsersWeight(), model.getUsersHeight(), model.getUsersGoal());
+            public void handle(ActionEvent e)   {
+                System.out.println("This button works");
+            }
+        });
+        */
     }
 }
