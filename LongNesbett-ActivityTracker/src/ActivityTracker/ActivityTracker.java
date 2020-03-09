@@ -1,16 +1,15 @@
 package ActivityTracker;
-import ActivityTracker.Controllers.HomeController;
 import ActivityTracker.Models.User;
-import ActivityTracker.Views.HomeView;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+
+//package ActivityTracker.Views;
+import javafx.scene.Parent;
 
 
 public class ActivityTracker extends Application {
@@ -36,10 +35,10 @@ public class ActivityTracker extends Application {
     @Override
     public void start(Stage stage) throws IOException
     {
-        // Create the FXMLLoader
+        /* Create the FXMLLoader
         FXMLLoader loader = new FXMLLoader();
         // Path to the FXML File
-        String fxmlDocPath = "../fxml/Home.fxml";
+        String fxmlDocPath = "../ActivityTracker.fxml/Home.ActivityTracker.fxml";
         FileInputStream fxmlStream = new FileInputStream(fxmlDocPath);
 
         // Create the Pane and all Details
@@ -52,6 +51,14 @@ public class ActivityTracker extends Application {
         // Set the Title to the Stage
         stage.setTitle("A simple FXML Example");
         // Display the Stage
+        stage.show();
+        */
+        Parent root = FXMLLoader.load(getClass().getResource("Views/Home.fxml"));
+
+        Scene scene = new Scene(root, 300, 275);
+
+        stage.setTitle("FXML Welcome");
+        stage.setScene(scene);
         stage.show();
     }
 

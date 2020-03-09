@@ -7,17 +7,19 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActivityTracker.Views.WeatherView">
+
+<AnchorPane prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxml.Home">
    <children>
       <Pane layoutX="81.0" prefHeight="300.0" prefWidth="219.0" style="-fx-background-color: #474747;" />
       <StackPane prefHeight="300.0" prefWidth="82.0" style="-fx-background-color: #1D1D1D;">
          <children>
             <Button centerShape="false" contentDisplay="GRAPHIC_ONLY" mnemonicParsing="false" prefHeight="75.0" prefWidth="80.0" style="-fx-background-color: #1D1D1D; -fx-border-color: WHITE;" text="Home" textFill="WHITE" StackPane.alignment="TOP_CENTER">
                <graphic>
-                  <ImageView fitHeight="50.0" fitWidth="45.0">
+                  <ImageView fitHeight="50.0" fitWidth="50.0">
                      <image>
-                        <Image url="@../Views/images/home_notSelected.png" />
+                        <Image url="@../ActivityTracker/Views/images/home_Selected.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -29,7 +31,7 @@
                <graphic>
                   <ImageView fitHeight="50.0" fitWidth="40.0">
                      <image>
-                        <Image url="@../Views/images/Profile_notSelected.png" />
+                        <Image url="@../ActivityTracker/Views/images/Profile_notSelected.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -39,9 +41,9 @@
                   <Insets top="75.0" />
                </StackPane.margin>
                <graphic>
-                  <ImageView fitHeight="50.0" fitWidth="45.0">
+                  <ImageView fitHeight="50.0" fitWidth="50.0">
                      <image>
-                        <Image url="@../Views/images/weather_selected.png" />
+                        <Image url="@../ActivityTracker/Views/images/weather_notSelected.png" />
                      </image>
                   </ImageView>
                </graphic>
@@ -53,12 +55,37 @@
                <graphic>
                   <ImageView fitHeight="50.0" fitWidth="40.0">
                      <image>
-                        <Image url="@../Views/images/settings_notSelected.png" />
+                        <Image url="@../ActivityTracker/Views/images/settings_notSelected.png" />
                      </image>
                   </ImageView>
                </graphic>
             </Button>
          </children>
       </StackPane>
+      <Pane layoutX="103.0" prefHeight="125.0" prefWidth="172.0" style="-fx-background-color: #474747;">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="125.0" style="-fx-background-color: #474747;" text="12:00" textFill="WHITE">
+               <font>
+                  <Font name="Lucida Grande" size="45.0" />
+               </font>
+            </Button>
+         </children></Pane>
+      <Button accessibleRole="TEXT" contentDisplay="TEXT_ONLY" layoutX="110.0" layoutY="250.0" mnemonicParsing="false" style="-fx-background-color: #474747;" text="This Is a Sample Goal" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button accessibleRole="TEXT" contentDisplay="GRAPHIC_ONLY" layoutX="125.0" layoutY="115.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="100.0" style="-fx-background-color: #474747;" textFill="WHITE" textOverrun="CLIP">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <graphic>
+            <ImageView fitHeight="100.0" fitWidth="100.0">
+               <image>
+                  <Image url="@../ActivityTracker/Views/images/Sun.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
    </children>
 </AnchorPane>
