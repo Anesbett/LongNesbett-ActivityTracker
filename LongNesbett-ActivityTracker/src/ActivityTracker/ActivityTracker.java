@@ -1,22 +1,31 @@
 package ActivityTracker;
-
+import ActivityTracker.Controllers.HomeController;
 import ActivityTracker.Models.User;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
-import javafx.scene.Scene;
 import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
-
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 
 public class ActivityTracker extends Application {
 
-    public static void main(String[] args) {
-        launch(args);
+    @Override
+    public void start(Stage stage) throws IOException
+    {
+        Parent root = FXMLLoader.load(getClass().getResource("Views/Stage.fxml"));
+        Scene scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+
     }
 
+<<<<<<< HEAD
     @Override
     public void start(Stage primaryStage) {
         try {
@@ -29,6 +38,11 @@ public class ActivityTracker extends Application {
         } catch (Exception ex) {
             Logger.getLogger(ActivityTracker.class.getName()).log(Level.SEVERE, null, ex);
         }
+=======
+
+    public static void main(String[] args) {
+        launch(args);
+>>>>>>> master
     }
 
     /**
