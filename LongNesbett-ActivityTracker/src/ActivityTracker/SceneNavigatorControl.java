@@ -22,6 +22,8 @@ public class SceneNavigatorControl implements Initializable {
     public ImageView weatherImageView;
     public ImageView settingsImageView;
 
+    @FXML
+    private BorderPane mainStage;
 
     Image homeButtonSelected = new Image("ActivityTracker/Views/img/home_selected.png");
     Image homeButtonNotSelected = new Image("ActivityTracker/Views/img/home_notSelected.png");
@@ -36,8 +38,6 @@ public class SceneNavigatorControl implements Initializable {
     Image settingsButtonNotSelected = new Image("ActivityTracker/Views/img/settings_notSelected.png");
 
 
-    @FXML
-    private BorderPane mainStage;
 
     @FXML
     private void displayHomeScene() {
@@ -104,6 +104,8 @@ public class SceneNavigatorControl implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+
+        displayHomeScene();
         /*
         assert loginButton != null : "fx:id=\"loginButton\" was not injected: check your FXML file 'LoginGUI.fxml'.";
         assert newUserButton != null : "fx:id=\"newUserButton\" was not injected: check your FXML file 'LoginGUI.fxml'.";
