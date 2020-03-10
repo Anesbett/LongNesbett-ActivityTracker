@@ -1,16 +1,14 @@
-package ActivityTracker.Controllers;
+package ActivityTracker;
 
-
-import ActivityTracker.ActivityTracker;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
 
 import java.net.URL;
 
-public class NavigationController {
+public class Navigator {
     private Pane view;
 
-    public Pane getPage(String fileName) {
+    public Pane getScene(String fileName) {
         try {
             URL fileUrl = ActivityTracker.class.getResource("/ActivityTracker/Views/" + fileName + ".fxml");
             if (fileUrl == null) {

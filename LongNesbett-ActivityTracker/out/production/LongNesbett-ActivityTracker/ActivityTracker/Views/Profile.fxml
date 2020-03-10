@@ -3,7 +3,7 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 
-<AnchorPane fx:id="Profile" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #16BFD3;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActivityTracker.Controllers.HomeController">
+<AnchorPane fx:id="Profile" prefHeight="500.0" prefWidth="500.0" style="-fx-background-color: #16BFD3;" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActivityTracker.Controllers.ProfileController">
     <children>
         <Label text="Profile Screen" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="250.0" />
     </children>
