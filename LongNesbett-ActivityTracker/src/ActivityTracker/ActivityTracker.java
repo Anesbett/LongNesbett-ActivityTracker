@@ -24,7 +24,7 @@ public class ActivityTracker extends Application {
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
             primaryStage.setResizable(false);
-            primaryStage.setTitle("Activity Tracker");
+            //primaryStage.setTitle("Activity Tracker");
             primaryStage.show();
         } catch (Exception ex) {
             Logger.getLogger(ActivityTracker.class.getName()).log(Level.SEVERE, null, ex);
