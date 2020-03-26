@@ -47,13 +47,5 @@
                </font>
             </Label>
          </children></Pane>
-      <LineChart layoutX="-15.0" layoutY="202.0" prefHeight="316.0" prefWidth="426.0">
-        <xAxis>
-          <CategoryAxis side="BOTTOM" />
-        </xAxis>
-        <yAxis>
-          <NumberAxis side="LEFT" />
-        </yAxis>
-      </LineChart>
    </children>
 </AnchorPane>
