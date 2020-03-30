@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/prototypes/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/prototypes/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/prototypes/JavaFX-Prototyping/JavaFX-Prototyping.iml" filepath="$PROJECT_DIR$/prototypes/JavaFX-Prototyping/JavaFX-Prototyping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LongNesbett-ActivityTracker/LongNesbett-ActivityTracker.iml" filepath="$PROJECT_DIR$/LongNesbett-ActivityTracker/LongNesbett-ActivityTracker.iml" />
+    </modules>
+  </component>
+</project>

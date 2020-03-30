@@ -1,6 +1,6 @@
 package ActivityTracker;
 
-import ActivityTracker.Models.User;
+import ActivityTracker.Models.*;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
