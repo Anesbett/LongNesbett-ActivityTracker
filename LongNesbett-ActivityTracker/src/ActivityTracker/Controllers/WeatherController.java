@@ -5,13 +5,12 @@ import java.util.ResourceBundle;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
-import ActivityTracker.Custom.Layout;
-import ActivityTracker.Custom.WeatherData;
+import ActivityTracker.Extensions.Layout;
+import ActivityTracker.Extensions.WeatherData;
 
 import javafx.scene.layout.Pane;
 
 public class WeatherController implements Initializable {
-
 
     @FXML
     private Pane Weather;

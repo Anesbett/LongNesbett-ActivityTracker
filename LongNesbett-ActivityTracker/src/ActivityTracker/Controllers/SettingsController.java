@@ -2,7 +2,7 @@ package ActivityTracker.Controllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import ActivityTracker.Custom.Layout;
+import ActivityTracker.Extensions.Layout;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;

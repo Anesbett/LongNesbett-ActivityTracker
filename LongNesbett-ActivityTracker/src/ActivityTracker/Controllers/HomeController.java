@@ -1,6 +1,6 @@
 package ActivityTracker.Controllers;
 
-import ActivityTracker.Custom.Layout;
+import ActivityTracker.Extensions.Layout;
 import java.net.URL;
 import java.util.ResourceBundle;
 

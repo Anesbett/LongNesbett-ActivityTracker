@@ -1,4 +1,4 @@
-package ActivityTracker.Custom;
+package ActivityTracker.Extensions;
 
 import javafx.scene.layout.Pane;
 
