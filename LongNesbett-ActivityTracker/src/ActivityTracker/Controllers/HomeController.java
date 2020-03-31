@@ -3,10 +3,15 @@ package ActivityTracker.Controllers;
 import ActivityTracker.Extensions.Layout;
 import java.net.URL;
 import java.util.ResourceBundle;
+
 import ActivityTracker.Models.Clock;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.geometry.Insets;
+import javafx.scene.layout.Background;
+import javafx.scene.layout.BackgroundFill;
+import javafx.scene.layout.CornerRadii;
 import javafx.scene.layout.Pane;
 import javafx.scene.control.Label;
 
