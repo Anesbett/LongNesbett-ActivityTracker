@@ -60,14 +60,14 @@ public class WeatherData {
     }
 
 
-    public static String parse(String responseBody) {
-        JSONArray forecasts = new JSONArray(responseBody);
-        for (int i = 0; i < forecasts.length(); i++) {
-            JSONObject forecast = forecasts.getJSONObject(i);
-            int weatherType = forecast.getInt("weather");
-            System.out.println(weatherType);
-        }
-        return null;
-    }
+//    public static String parse(String responseBody) {
+//        JSONArray forecasts = new JSONArray(responseBody);
+//        for (int i = 0; i < forecasts.length(); i++) {
+//            JSONObject forecast = forecasts.getJSONObject(i);
+//            int weatherType = forecast.getInt("weather");
+//            System.out.println(weatherType);
+//        }
+//        return null;
+//    }
 
 }
