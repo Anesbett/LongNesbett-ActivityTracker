@@ -17,13 +17,13 @@
             <Font name="Lucida Grande" size="100.0" />
          </font>
       </Label>
-      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="50.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="clockAdjLeft" fitHeight="34.0" fitWidth="23.0" layoutX="50.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/arrow_left.png" />
          </image>
       </ImageView>
 
-      <ImageView fitHeight="34.0" fitWidth="21.0" layoutX="331.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="clockAdjRight" fitHeight="34.0" fitWidth="21.0" layoutX="331.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/arrow_right.png" />
          </image>
@@ -43,7 +43,7 @@
       </Label>
       <Pane layoutX="42.0" layoutY="191.0" prefHeight="67.0" prefWidth="318.0" style="-fx-background-color: #000000; -fx-opacity: 0.8;">
          <children>
-            <Label layoutX="14.0" layoutY="9.0" text="My goal is to run a mile in &#10;under 7 minuets" textFill="WHITE">
+            <Label fx:id="goalLabel" layoutX="14.0" layoutY="9.0" text="My goal is to run a mile in &#10;under 7 minuets" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="20.0" />
                </font>
@@ -57,7 +57,7 @@
                   <Font name="Lucida Grande" size="20.0" />
                </font>
             </Label>
-            <Label layoutX="59.0" layoutY="44.0" text="157" textFill="WHITE">
+            <Label fx:id="weightLabel" layoutX="59.0" layoutY="44.0" text="157" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="35.0" />
                </font>
@@ -81,7 +81,7 @@
                   <Font name="Lucida Grande" size="20.0" />
                </font>
             </Label>
-            <Label layoutX="59.0" layoutY="44.0" text="27" textFill="WHITE">
+            <Label fx:id="ageLabel" layoutX="59.0" layoutY="44.0" text="27" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="35.0" />
                </font>
@@ -105,7 +105,7 @@
                   <Font name="Lucida Grande" size="20.0" />
                </font>
             </Label>
-            <Label layoutX="66.0" layoutY="44.0" text="6'2" textFill="WHITE">
+            <Label fx:id="heightLabel" layoutX="66.0" layoutY="44.0" text="6'2" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="35.0" />
                </font>
