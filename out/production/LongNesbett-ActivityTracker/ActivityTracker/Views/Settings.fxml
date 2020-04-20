@@ -11,19 +11,19 @@
 
 <AnchorPane fx:id="Settings" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActivityTracker.Controllers.SettingsController">
    <children>
-      <Pane layoutX="410.0" prefHeight="500.0" prefWidth="90.0" style="-fx-background-color: #1d1d1d;" />
-      <Label fx:id="clockLabel" layoutX="90.0" layoutY="25.0" textFill="WHITE">
+      <Pane layoutX="410.0" prefHeight="500.0" prefWidth="75.0" style="-fx-background-color: #1d1d1d;" />
+      <Label fx:id="clockLabel" layoutX="60.0" layoutY="25.0" textFill="WHITE">
          <font>
             <Font name="Lucida Grande" size="100.0" />
          </font>
       </Label>
-      <ImageView fitHeight="34.0" fitWidth="23.0" layoutX="50.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="clockLeft" fitHeight="34.0" fitWidth="23.0" layoutX="35.0" layoutY="69.0" onMousePressed="#clockLeft" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/arrow_left.png" />
          </image>
       </ImageView>
 
-      <ImageView fitHeight="34.0" fitWidth="21.0" layoutX="331.0" layoutY="69.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="clockRight" fitHeight="34.0" fitWidth="21.0" layoutX="360.0" layoutY="69.0" onMousePressed="#clockRight" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@img/arrow_right.png" />
          </image>
@@ -43,7 +43,7 @@
       </Label>
       <Pane layoutX="42.0" layoutY="191.0" prefHeight="67.0" prefWidth="318.0" style="-fx-background-color: #000000; -fx-opacity: 0.8;">
          <children>
-            <Label layoutX="14.0" layoutY="9.0" text="My goal is to run a mile in &#10;under 7 minuets" textFill="WHITE">
+            <Label fx:id="goalLabel" layoutX="14.0" layoutY="9.0" text="My goal is to run a mile in &#10;under 7 minuets" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="20.0" />
                </font>
@@ -57,17 +57,17 @@
                   <Font name="Lucida Grande" size="20.0" />
                </font>
             </Label>
-            <Label layoutX="59.0" layoutY="44.0" text="157" textFill="WHITE">
+            <Label fx:id="weightLabel" layoutX="59.0" layoutY="44.0" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="35.0" />
                </font>
             </Label>
-            <ImageView fitHeight="25.0" fitWidth="13.0" layoutX="147.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="weightRight" fitHeight="25.0" fitWidth="13.0" layoutX="147.0" layoutY="54.0" onMousePressed="#weightRight" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@img/arrow_right.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="25.0" fitWidth="13.0" layoutX="26.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="weightLeft" fitHeight="25.0" fitWidth="13.0" layoutX="26.0" layoutY="54.0" onMousePressed="#weightLeft" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@img/arrow_left.png" />
                </image>
@@ -81,17 +81,17 @@
                   <Font name="Lucida Grande" size="20.0" />
                </font>
             </Label>
-            <Label layoutX="59.0" layoutY="44.0" text="27" textFill="WHITE">
+            <Label fx:id="ageLabel" layoutX="59.0" layoutY="44.0" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="35.0" />
                </font>
             </Label>
-            <ImageView fitHeight="25.0" fitWidth="13.0" layoutX="126.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ageRight" fitHeight="25.0" fitWidth="13.0" layoutX="126.0" layoutY="54.0" onMousePressed="#ageRight" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@img/arrow_right.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="25.0" fitWidth="13.0" layoutX="23.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="ageLeft" fitHeight="25.0" fitWidth="13.0" layoutX="23.0" layoutY="54.0" onMousePressed="#ageLeft" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@img/arrow_left.png" />
                </image>
@@ -105,17 +105,17 @@
                   <Font name="Lucida Grande" size="20.0" />
                </font>
             </Label>
-            <Label layoutX="66.0" layoutY="44.0" text="6'2" textFill="WHITE">
+            <Label fx:id="heightLabel" layoutX="66.0" layoutY="44.0" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="35.0" />
                </font>
             </Label>
-            <ImageView fitHeight="25.0" fitWidth="13.0" layoutX="144.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="heightRight" fitHeight="25.0" fitWidth="13.0" layoutX="144.0" layoutY="54.0" onMousePressed="#heightRight" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@img/arrow_right.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="25.0" fitWidth="13.0" layoutX="25.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fx:id="heightLeft" fitHeight="25.0" fitWidth="13.0" layoutX="25.0" layoutY="54.0" onMousePressed="#heightLeft" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@img/arrow_left.png" />
                </image>

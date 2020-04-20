@@ -14,6 +14,9 @@ import ActivityTracker.Models.User;
 
 public class ActivityTracker extends Application {
 
+    public static Clock clock = new Clock();
+    public static User user = new User();
+
     public static void main(String[] args) {
         launch(args);
     }

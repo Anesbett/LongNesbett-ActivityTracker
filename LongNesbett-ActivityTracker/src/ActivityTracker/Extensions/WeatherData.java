@@ -89,6 +89,7 @@ public class WeatherData {
     }
 
 
+<<<<<<< HEAD
     public static String parse(String responseBody) {
         JSONObject forecasts = new JSONObject(responseBody);
 
@@ -113,5 +114,6 @@ public class WeatherData {
         }
         */
     }
+>>>>>>> 6e43b208e5df781a700c6f394039d80eb01764ad
 
 }

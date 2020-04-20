@@ -7,9 +7,9 @@ public class User {
 
     // Define all user stat variables for the model
     private String userName;
-    private Integer userAge;
-    private Integer userWeight;
-    private Integer userHeight;
+    private Integer userAge = 21;
+    private Integer userWeight = 150;
+    private Integer userHeight = 7;
     private String userGoal;
     private Clock userTime;
     //private Integer stepsTaken;

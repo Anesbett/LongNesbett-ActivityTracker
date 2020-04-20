@@ -2,7 +2,10 @@ package ActivityTracker.Controllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+
+import ActivityTracker.ActivityTracker;
 import ActivityTracker.Extensions.Layout;
+import ActivityTracker.Models.*;
 
 import ActivityTracker.Models.Clock;
 import javafx.fxml.FXML;
@@ -12,20 +15,68 @@ import javafx.scene.control.Label;
 
 public class SettingsController implements Initializable {
 
-    //clock variables to get current local time
-    private Clock currentClock = new Clock();
-    private String time = currentClock.getTime();
-
     @FXML
     private Pane Settings;
     @FXML
     private Label clockLabel;
+    @FXML
+    private Label weightLabel;
+    @FXML
+    private Label ageLabel;
+    @FXML
+    private Label heightLabel;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         Layout.setUpView(Settings);
-        clockLabel.setText(time);
+        clockLabel.setText(ActivityTracker.clock.getTime());
+        weightLabel.setText(ActivityTracker.user.getUsersWeight().toString());
+        ageLabel.setText(ActivityTracker.user.getUsersAge().toString());
+        heightLabel.setText(ActivityTracker.user.getUsersHeight().toString());
         System.out.println("You have made it to the settings controller");
 
+    }
+
+
+    //Button Operations
+    @FXML
+    private void clockLeft(){
+        ActivityTracker.clock.minusOne();
+        clockLabel.setText(ActivityTracker.clock.getTime());
+    }
+    @FXML
+    private void clockRight(){
+        ActivityTracker.clock.addOne();
+        clockLabel.setText(ActivityTracker.clock.getTime());
+    }
+    @FXML
+    private void ageLeft(){
+        ActivityTracker.user.setUsersAge(ActivityTracker.user.getUsersAge() - 1);
+        ageLabel.setText(ActivityTracker.user.getUsersAge().toString());
+    }
+    @FXML
+    private void ageRight(){
+        ActivityTracker.user.setUsersAge(ActivityTracker.user.getUsersAge() + 1);
+        ageLabel.setText(ActivityTracker.user.getUsersAge().toString());
+    }
+    @FXML
+    private void weightRight(){
+        ActivityTracker.user.setUsersWeight(ActivityTracker.user.getUsersWeight() + 1);
+        weightLabel.setText(ActivityTracker.user.getUsersWeight().toString());
+    }
+    @FXML
+    private void weightLeft(){
+        ActivityTracker.user.setUsersWeight(ActivityTracker.user.getUsersWeight() - 1);
+        weightLabel.setText(ActivityTracker.user.getUsersWeight().toString());
+    }
+    @FXML
+    private void heightLeft(){
+        ActivityTracker.user.setUsersHeight(ActivityTracker.user.getUsersHeight() - 1);
+        heightLabel.setText(ActivityTracker.user.getUsersHeight().toString());
+    }
+    @FXML
+    private void heightRight(){
+        ActivityTracker.user.setUsersHeight(ActivityTracker.user.getUsersHeight() + 1);
+        heightLabel.setText(ActivityTracker.user.getUsersHeight().toString());
     }
 }
