@@ -13,6 +13,9 @@ import java.util.logging.Logger;
 
 public class ActivityTracker extends Application {
 
+    public static Clock clock = new Clock();
+    public static User user = new User();
+
     public static void main(String[] args) {
         launch(args);
     }
@@ -24,7 +27,6 @@ public class ActivityTracker extends Application {
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
             primaryStage.setResizable(false);
-
             primaryStage.show();
         } catch (Exception ex) {
             Logger.getLogger(ActivityTracker.class.getName()).log(Level.SEVERE, null, ex);

@@ -10,7 +10,7 @@
 
 <AnchorPane fx:id="Home" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActivityTracker.Controllers.HomeController">
     <children>
-        <Label fx:id="clockLabel" layoutX="90.0" layoutY="32.0" textFill="WHITE" AnchorPane.leftAnchor="90.0" AnchorPane.topAnchor="32.0">
+        <Label fx:id="clockLabel" layoutX="90.0" layoutY="32.0" textFill="WHITE" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="25.0">
          <font>
             <Font name="Lucida Grande" size="100.0" />
          </font></Label>
