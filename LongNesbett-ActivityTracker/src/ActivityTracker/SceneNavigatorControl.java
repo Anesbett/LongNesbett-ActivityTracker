@@ -1,18 +1,21 @@
 package ActivityTracker;
 
-import java.awt.event.MouseEvent;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-import javafx.event.ActionEvent;
+import ActivityTracker.Extensions.Navigator;
+import ActivityTracker.Controllers.HomeController;
+import ActivityTracker.Models.User;
+import ActivityTracker.Models.User;
+
+
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.Pane;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.Image;
-
-
+import javafx.scene.text.Text;
 
 public class SceneNavigatorControl implements Initializable {
 
@@ -38,13 +41,13 @@ public class SceneNavigatorControl implements Initializable {
     Image settingsButtonNotSelected = new Image("ActivityTracker/Views/img/settings_notSelected.png");
 
 
-
     @FXML
     private void displayHomeScene() {
         Navigator object = new Navigator();
         Pane view = object.getScene("Home");
         handleButtonChange("Home");
         mainStage.setCenter(view);
+
     }
 
     @FXML
@@ -102,10 +105,25 @@ public class SceneNavigatorControl implements Initializable {
         }
     }
 
+/*
+    @FXML
+    private Text name;
+
+    private final User user ;
+
+    public SceneNavigatorControl(User user) {
+        this.user = user ;
+    }
+*/
+
     @Override
     public void initialize(URL location, ResourceBundle resources) {
 
+        //name.textProperty().bind(user.stringProperty());
+
         displayHomeScene();
+
+
         /*
         assert loginButton != null : "fx:id=\"loginButton\" was not injected: check your FXML file 'LoginGUI.fxml'.";
         assert newUserButton != null : "fx:id=\"newUserButton\" was not injected: check your FXML file 'LoginGUI.fxml'.";

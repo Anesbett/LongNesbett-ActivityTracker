@@ -1,6 +1,7 @@
 package ActivityTracker.Models;
+import javafx.beans.property.SimpleStringProperty;
+import javafx.beans.property.StringProperty;
 
-import ActivityTracker.ActivityTracker;
 
 public class User {
 
@@ -10,9 +11,20 @@ public class User {
     private Integer userWeight;
     private Integer userHeight;
     private String userGoal;
+    private Clock userTime;
     //private Integer stepsTaken;
     //private Integer caloriesBurned;
 
+
+    /**
+     * Method that returns the users name
+     * @return users name of type String
+     */
+    public Clock getUsersTime() {
+        // user Clock methods to get current time
+
+        return userTime;
+    }
     /**
      * Method that returns the users name
      * @return users name of type String
@@ -41,9 +53,8 @@ public class User {
      * Method that sets the current users age to a given value
      * @param  age the current users age
      */
-    public void setUsersAge(Integer age) {
-        this.userAge = age;
-    }
+    public void setUsersAge(Integer age) { this.userAge = age; }
+
 
     /**
      * Method that returns the users weight
@@ -93,3 +104,7 @@ public class User {
         this.userGoal = goal;
     }
 }
+
+
+
+

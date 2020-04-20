@@ -1,4 +1,8 @@
-package ActivityTracker;
+package ActivityTracker.Extensions;
+
+import ActivityTracker.ActivityTracker;
+import ActivityTracker.Controllers.HomeController;
+import ActivityTracker.Controllers.ProfileController;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;
@@ -14,8 +18,8 @@ public class Navigator {
             if (fileUrl == null) {
                 throw new java.io.FileNotFoundException("FXML File cannot be found");
             }
-
             view = new FXMLLoader().load(fileUrl);
+
         } catch (Exception e) {
             System.out.print("No page " + fileName + " please check FXMLLoader");
         }
