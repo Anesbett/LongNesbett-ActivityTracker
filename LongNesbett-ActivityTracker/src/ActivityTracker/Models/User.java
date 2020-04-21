@@ -1,18 +1,20 @@
 package ActivityTracker.Models;
 
+import ActivityTracker.ActivityTracker;
+
 public class User {
 
     // Define all user stat variables for the default model
     private Integer userAge = 21;
     private Integer userWeight = 150;
-    private Integer userHeight = 7;
+    private Integer userHeight = 66;
     private Integer stepsTaken = 5475;
     private String userGoal = "I want to run a mile in under 9 minuets";
     private Clock userTime;
 
     /**
-     * Method that returns the users name
-     * @return users name of type String
+     * Method that returns the users time
+     * @return users time of type String
      */
     public Clock getUsersTime() {
         // user Clock methods to get current time
@@ -99,12 +101,51 @@ public class User {
     }
 
     /**
+     * Helper method that returns the age factor that affects amount of calories burned
+     * @return age factor for user's current age
+     */
+    private double calcAgeFactor(int userAge){
+        if(userAge <= 10){
+            return .5;
+        }
+        else if (userAge >= 11 && userAge <= 20 ){
+            return .51;
+        }
+        else if (userAge >= 21 && userAge <= 30 ){
+            return .52;
+        }
+        else if (userAge >= 31 && userAge <= 50 ){
+            return .55;
+        }
+        else if (userAge >= 31 && userAge <= 40 ){
+            return .56;
+        }
+        else if (userAge >= 41 && userAge <= 50 ){
+            return .57;
+        }
+        else if (userAge >= 51 && userAge <= 60 ){
+            return .58;
+        }
+        else {
+            return .60;
+        }
+    }
+
+    /**
      * Method that returns the number of calorie count taken
      * @return  the current users calorie count
      */
     public Double getUsersCalorieCount(String stepsTaken) {
-        int result = Integer.parseInt(stepsTaken);
-        double calories = (int) Math.round(result * 0.063);
+        int weightTemp = ActivityTracker.user.getUsersWeight();
+        double ageFactor = calcAgeFactor(ActivityTracker.user.getUsersAge());
+        //calculate average steps per mile
+        double calPerMile = weightTemp * ageFactor;
+        //2200 steps is based off of national average for amount of steps taken per mile
+        //** calculate calories burned per step
+        double calPerStep = calPerMile/2200;
+        //total calories burned
+        double calories = calPerStep * ActivityTracker.user.getUsersStepCount();
+        calories = Math.round(calories);
         return calories;
     }
 }

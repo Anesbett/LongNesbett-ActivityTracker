@@ -6,11 +6,11 @@ import javafx.scene.Scene;
 import javafx.scene.Parent;
 import javafx.stage.Stage;
 import ActivityTracker.Models.Clock;
-
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import ActivityTracker.Models.User;
+
+
 
 
 public class ActivityTracker extends Application {

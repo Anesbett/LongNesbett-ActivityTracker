@@ -68,4 +68,33 @@ class UserTest {
         user.setUsersHeight(60);
         assertEquals(60, user.getUsersHeight());
     }
+
+    /**
+     * This test checks the setUsersStepCount function
+     * @expected user's step count is set to 100
+     */
+    @Test
+    void setUsersStepCount(){
+        user.setUsersStepCount(100);
+        assertEquals(100, user.getUsersStepCount());
+    }
+
+    /**
+     * This test checks the getUsersStepCount function
+     * @expected user's step count is 2000
+     */
+    @Test
+    void getUsersStepCount() {
+        user.setUsersStepCount(2000);
+        assertEquals(2000, user.getUsersStepCount());
+    }
+
+    /**
+     * This test checks the getUsersCalorieCount function
+     * @expected user's total calories burned is 194 based off of user's 5745 steps taken
+     */
+    @Test
+    void getUsersCalorieCount(){
+        assertEquals(194.0, user.getUsersCalorieCount("5745"));
+    }
 }
