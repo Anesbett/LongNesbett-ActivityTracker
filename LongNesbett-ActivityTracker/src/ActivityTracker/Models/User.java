@@ -1,20 +1,14 @@
 package ActivityTracker.Models;
-import javafx.beans.property.SimpleStringProperty;
-import javafx.beans.property.StringProperty;
-
 
 public class User {
 
-    // Define all user stat variables for the model
-    private String userName;
+    // Define all user stat variables for the default model
     private Integer userAge = 21;
     private Integer userWeight = 150;
     private Integer userHeight = 7;
-    private String userGoal;
+    private Integer stepsTaken = 5475;
+    private String userGoal = "I want to run a mile in under 9 minuets";
     private Clock userTime;
-    //private Integer stepsTaken;
-    //private Integer caloriesBurned;
-
 
     /**
      * Method that returns the users name
@@ -22,23 +16,7 @@ public class User {
      */
     public Clock getUsersTime() {
         // user Clock methods to get current time
-
         return userTime;
-    }
-    /**
-     * Method that returns the users name
-     * @return users name of type String
-     */
-    public String getUsersName() {
-        return userName;
-    }
-
-    /**
-     * Method that takes in a string value and sets it as the current users name
-     * @param  name  the current users weight
-     */
-    public void setUsersName(String name) {
-        this.userName = name;
     }
 
     /**
@@ -102,6 +80,32 @@ public class User {
      */
     public void setUsersGoal(String goal) {
         this.userGoal = goal;
+    }
+
+    /**
+     * Method that returns the number of steps taken
+     * @return  the current users step count as an Integer
+     */
+    public Integer getUsersStepCount() {
+        return stepsTaken;
+    }
+
+    /**
+     * Method that sets the current users step count
+     * @param  stepsTaken  the current users step count
+     */
+    public void setUsersStepCount(Integer stepsTaken) {
+        this.stepsTaken = stepsTaken;
+    }
+
+    /**
+     * Method that returns the number of calorie count taken
+     * @return  the current users calorie count
+     */
+    public Double getUsersCalorieCount(String stepsTaken) {
+        int result = Integer.parseInt(stepsTaken);
+        double calories = (int) Math.round(result * 0.063);
+        return calories;
     }
 }
 

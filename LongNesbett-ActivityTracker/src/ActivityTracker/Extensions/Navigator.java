@@ -1,8 +1,6 @@
 package ActivityTracker.Extensions;
 
 import ActivityTracker.ActivityTracker;
-import ActivityTracker.Controllers.HomeController;
-import ActivityTracker.Controllers.ProfileController;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.layout.Pane;

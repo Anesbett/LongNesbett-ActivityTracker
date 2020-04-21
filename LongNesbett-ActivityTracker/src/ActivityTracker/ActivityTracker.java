@@ -5,6 +5,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.Parent;
 import javafx.stage.Stage;
+import ActivityTracker.Models.Clock;
 
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -21,18 +22,11 @@ public class ActivityTracker extends Application {
         launch(args);
     }
 
-    User user = new User();
-
 
     @Override
     public void start(Stage primaryStage) {
         try {
             Parent root = FXMLLoader.load(ActivityTracker.class.getResource("Views/Stage.fxml"));
-
-            //FXMLLoader loader = new FXMLLoader(getClass().getResource("Views/Stage.fxml"));
-            //loader.setController(new SceneNavigatorControl(user));
-            //Parent root = loader.load();
-
             Scene scene = new Scene(root);
             primaryStage.setScene(scene);
             primaryStage.setResizable(false);

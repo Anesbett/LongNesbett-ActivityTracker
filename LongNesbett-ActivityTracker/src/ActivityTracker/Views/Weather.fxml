@@ -1,10 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="Weather" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActivityTracker.Controllers.WeatherController">
-    <children>
-        <Label text="Weather Scene" textFill="WHITE" AnchorPane.leftAnchor="170.0" AnchorPane.topAnchor="250.0" />
-    </children>
+    <Pane layoutX="410.0" layoutY="-1.0" prefHeight="500.0" prefWidth="90.0" style="-fx-background-color: #1d1d1d;" />
+    <Label fx:id="weatherLabel" alignment="CENTER" layoutX="7.0" prefHeight="121.0" prefWidth="399.0" text="Clear" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="7.0" AnchorPane.topAnchor="0.0">
+        <font>
+            <Font name="Lucida Grande" size="57.0" />
+        </font>
+    </Label>
+    <Label fx:id="tempLabel" alignment="CENTER" layoutX="27.0" layoutY="61.0" prefHeight="361.0" prefWidth="359.0" text="89" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="27.0" AnchorPane.topAnchor="61.0">
+        <font>
+            <Font name="Avenir Next Condensed Ultra Light" size="250.0" />
+        </font>
+    </Label>
+   <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="321.0" layoutY="111.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@img/degree.png" />
+      </image>
+   </ImageView>
+    <Label fx:id="humidityLabel" alignment="CENTER" layoutY="374.0" prefHeight="48.0" prefWidth="399.0" text="Humidity: 7%" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="374.0">
+        <font>
+            <Font name="Lucida Grande" size="25.0" />
+        </font>
+    </Label>
+    <Label fx:id="locationLabel" alignment="CENTER" layoutY="422.0" prefHeight="48.0" prefWidth="399.0" text="Charleston" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="422.0">
+        <font>
+            <Font name="Lucida Grande" size="25.0" />
+        </font>
+    </Label>
 </AnchorPane>

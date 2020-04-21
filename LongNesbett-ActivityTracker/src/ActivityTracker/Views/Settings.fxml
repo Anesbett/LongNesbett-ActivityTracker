@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -12,7 +13,7 @@
 <AnchorPane fx:id="Settings" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActivityTracker.Controllers.SettingsController">
    <children>
       <Pane layoutX="410.0" prefHeight="500.0" prefWidth="75.0" style="-fx-background-color: #1d1d1d;" />
-      <Label fx:id="clockLabel" layoutX="60.0" layoutY="25.0" textFill="WHITE">
+      <Label fx:id="clockLabel" alignment="CENTER" layoutX="60.0" layoutY="25.0" prefHeight="121.0" prefWidth="296.0" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Lucida Grande" size="100.0" />
          </font>
@@ -41,15 +42,6 @@
             </LinearGradient>
          </textFill>
       </Label>
-      <Pane layoutX="42.0" layoutY="191.0" prefHeight="67.0" prefWidth="318.0" style="-fx-background-color: #000000; -fx-opacity: 0.8;">
-         <children>
-            <Label fx:id="goalLabel" layoutX="14.0" layoutY="9.0" text="My goal is to run a mile in &#10;under 7 minuets" textFill="WHITE">
-               <font>
-                  <Font name="Lucida Grande" size="20.0" />
-               </font>
-            </Label>
-         </children>
-      </Pane>
       <Pane layoutX="22.0" layoutY="287.0" prefHeight="87.0" prefWidth="184.0">
          <children>
             <Label layoutX="59.0" layoutY="14.0" text="Weight" textFill="WHITE">
@@ -57,7 +49,7 @@
                   <Font name="Lucida Grande" size="20.0" />
                </font>
             </Label>
-            <Label fx:id="weightLabel" layoutX="59.0" layoutY="44.0" textFill="WHITE">
+            <Label fx:id="weightLabel" alignment="CENTER" layoutX="46.0" layoutY="44.0" prefHeight="42.0" prefWidth="94.0" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="35.0" />
                </font>
@@ -81,7 +73,7 @@
                   <Font name="Lucida Grande" size="20.0" />
                </font>
             </Label>
-            <Label fx:id="ageLabel" layoutX="59.0" layoutY="44.0" textFill="WHITE">
+            <Label fx:id="ageLabel" alignment="CENTER" layoutX="38.0" layoutY="44.0" prefHeight="42.0" prefWidth="85.0" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="35.0" />
                </font>
@@ -98,14 +90,14 @@
             </ImageView>
          </children>
       </Pane>
-      <Pane layoutX="22.0" layoutY="389.0" prefHeight="87.0" prefWidth="184.0">
+      <Pane layoutX="116.0" layoutY="392.0" prefHeight="87.0" prefWidth="184.0">
          <children>
             <Label layoutX="62.0" layoutY="14.0" text="Height" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="20.0" />
                </font>
             </Label>
-            <Label fx:id="heightLabel" layoutX="66.0" layoutY="44.0" textFill="WHITE">
+            <Label fx:id="heightLabel" alignment="CENTER" layoutX="41.0" layoutY="44.0" prefHeight="42.0" prefWidth="100.0" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Lucida Grande" size="35.0" />
                </font>
@@ -122,11 +114,14 @@
             </ImageView>
          </children>
       </Pane>
-      <ImageView fitHeight="42.0" fitWidth="125.0" layoutX="236.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@img/apply_button.png" />
-         </image>
-      </ImageView>
-       
+      <TextField fx:id="goalTextField" layoutX="24.0" layoutY="206.0" prefHeight="63.0" prefWidth="275.0" />
+      <Pane layoutX="303.0" layoutY="206.0" prefHeight="63.0" prefWidth="85.0" style="-fx-background-color: #F6A623;">
+         <children>
+            <ImageView fitHeight="25.0" fitWidth="85.0" layoutX="6.0" layoutY="19.0" onMousePressed="#updateGoal" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/apply_button.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
    </children>
 </AnchorPane>

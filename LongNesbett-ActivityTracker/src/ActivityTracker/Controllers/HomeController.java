@@ -6,20 +6,17 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 import ActivityTracker.Extensions.WeatherData;
-import ActivityTracker.Models.Clock;
 
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.control.Label;
-
-import javax.swing.text.html.ImageView;
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 
 public class HomeController implements Initializable {
-
-
-
 
     @FXML
     private Pane Home;
@@ -28,7 +25,10 @@ public class HomeController implements Initializable {
     @FXML
     private Label weatherLabel;
     @FXML
+    private Label goalLabel;
+    @FXML
     private ImageView weatherIcon;
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -36,13 +36,13 @@ public class HomeController implements Initializable {
         clockLabel.setText(ActivityTracker.clock.getTime());
         System.out.println("You have made it to the home controller");
 
+        JSONObject forecast = WeatherData.getSingleForecast();
 
-        String currentForecast = WeatherData.getWeatherData();
-        String weatherIconText = WeatherData.getWeatherIcon(currentForecast);
-        weatherLabel.setText(currentForecast);
-        System.out.println(weatherIconText);
+        JSONArray forecastArray = forecast.getJSONArray("weather");
+        String currentWeather = forecastArray.getJSONObject(0).getString("main");
 
-
-
+        weatherLabel.setText(currentWeather);
+        goalLabel.setText(ActivityTracker.user.getUsersGoal());
+        weatherIcon.setImage(WeatherData.getWeatherIcon(currentWeather));
     }
 }

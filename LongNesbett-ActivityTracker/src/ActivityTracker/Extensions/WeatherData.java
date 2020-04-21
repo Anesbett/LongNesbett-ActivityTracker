@@ -1,5 +1,6 @@
 package ActivityTracker.Extensions;
 
+import javafx.scene.image.Image;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
@@ -13,15 +14,14 @@ import java.net.URL;
 public class WeatherData {
     private static HttpURLConnection connection;
 
-    public static String getWeatherData() {
+    public static JSONObject getSingleForecast() {
         // Try to connect to the API
-
         BufferedReader reader;
         String line;
         StringBuffer responseContent = new StringBuffer();
 
         try {
-            URL url = new URL("https://api.openweathermap.org/data/2.5/weather?zip=29566,us&appid=0f965a23a25240372a5631d7432a7079");
+            URL url = new URL("https://api.openweathermap.org/data/2.5/weather?zip=29401,us&appid=0f965a23a25240372a5631d7432a7079");
             connection = (HttpURLConnection) url.openConnection();
 
             // Request Setup
@@ -56,64 +56,38 @@ public class WeatherData {
             connection.disconnect();
         }
 
-        String currentWeather = parse(responseContent.toString());
-        return currentWeather;
+
+        JSONObject forecast = new JSONObject(responseContent.toString());
+
+        return forecast;
+
     }
 
-    public static String getWeatherIcon(String currentWeather) {
-        String iconName;
+    public static Image getWeatherIcon(String currentWeather) {
+        Image iconName;
         switch(currentWeather)
         {
             case "Thunderstorm":
-                iconName = "thunderstorm";
+                iconName = new Image("ActivityTracker/Views/img/thunderstorm.png");
                 break;
             case "Drizzle":
-                iconName = "drizzle";
+                iconName = new Image("ActivityTracker/Views/img/drizzle.png");
                 break;
             case "Rain":
-                iconName = "rain";
+                iconName = new Image("ActivityTracker/Views/img/rain.png");
                 break;
             case "Snow":
-                iconName = "snow";
+                iconName = new Image("ActivityTracker/Views/img/snow.png");
                 break;
             case "Clouds":
-                iconName = "clouds";
+                iconName = new Image("ActivityTracker/Views/img/clouds.png");
                 break;
             case "Fog":
-                iconName = "fog";
+                iconName = new Image("ActivityTracker/Views/img/fog.png");
                 break;
             default:
-                iconName = "clear";
+                iconName = new Image("ActivityTracker/Views/img/clear.png");
         }
         return iconName;
     }
-
-
-<<<<<<< HEAD
-    public static String parse(String responseBody) {
-        JSONObject forecasts = new JSONObject(responseBody);
-
-        JSONArray forecastArray = forecasts.getJSONArray("weather");
-        String pageName = forecastArray.getJSONObject(0).getString("main");
-
-        return pageName;
-        /*
-        for (int i = 0; i < forecasts.length(); i++)
-        {
-            forecasts.
-        }
-        */
-
-        /*
-        JSONArray forecasts = new JSONArray(responseBody);
-        System.out.print(forecasts.length());
-        for (int i = 0; i < forecasts.length(); i++) {
-            JSONObject forecast = forecasts.getJSONObject(i);
-            int weatherType = forecast.getInt("weather");
-            System.out.println(weatherType);
-        }
-        */
-    }
->>>>>>> 6e43b208e5df781a700c6f394039d80eb01764ad
-
 }

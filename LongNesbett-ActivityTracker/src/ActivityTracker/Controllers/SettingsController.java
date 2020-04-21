@@ -5,13 +5,15 @@ import java.util.ResourceBundle;
 
 import ActivityTracker.ActivityTracker;
 import ActivityTracker.Extensions.Layout;
-import ActivityTracker.Models.*;
-
-import ActivityTracker.Models.Clock;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.Pane;
 import javafx.scene.control.Label;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+
+import javafx.scene.control.TextField;
 
 public class SettingsController implements Initializable {
 
@@ -25,6 +27,9 @@ public class SettingsController implements Initializable {
     private Label ageLabel;
     @FXML
     private Label heightLabel;
+    @FXML
+    private TextField goalTextField;
+
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -34,11 +39,15 @@ public class SettingsController implements Initializable {
         ageLabel.setText(ActivityTracker.user.getUsersAge().toString());
         heightLabel.setText(ActivityTracker.user.getUsersHeight().toString());
         System.out.println("You have made it to the settings controller");
+        goalTextField.setText(ActivityTracker.user.getUsersGoal());
 
     }
 
+    @FXML
+    private void updateGoal(){
+        ActivityTracker.user.setUsersGoal(goalTextField.getText());
+    }
 
-    //Button Operations
     @FXML
     private void clockLeft(){
         ActivityTracker.clock.minusOne();
