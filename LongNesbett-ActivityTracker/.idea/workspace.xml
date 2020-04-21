@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98d75f64-611d-4be3-9503-288080f88d9b" name="Default Changelist" comment="34">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LongNesbett-ActivityTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LongNesbett-ActivityTracker.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/HomeController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/SettingsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/SettingsController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/WeatherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/WeatherController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Extensions/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Extensions/WeatherData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/META-INF/LongNesbett-ActivityTracker.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/META-INF/LongNesbett-ActivityTracker.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/ActivityTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/ActivityTracker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Models/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/ActivityTracker/Models/TestUser/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ActivityTracker/Models/TestUser/UserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/LongNesbett-ActivityTracker/ActivityTracker/Models/TestUser/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LongNesbett-ActivityTracker/ActivityTracker/Models/TestUser/UserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Controllers/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Controllers/SettingsController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +58,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.UserTest.getUsersCalorieCount">
+  <component name="RunManager" selected="Application.ActivityTracker">
     <configuration name="ActivityTracker" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ActivityTracker.ActivityTracker" />
       <module name="LongNesbett-ActivityTracker" />
@@ -137,8 +129,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserTest.getUsersCalorieCount" />
         <item itemvalue="Application.ActivityTracker" />
+        <item itemvalue="JUnit.UserTest.getUsersCalorieCount" />
         <item itemvalue="JUnit.UserTest.setUsersStepCount" />
         <item itemvalue="JUnit.UserTest.getUsersStepCount" />
       </list>
@@ -157,7 +149,7 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1582403443773" duration="1880000" />
       <workItem from="1582579940064" duration="548000" />
-      <workItem from="1587489799065" duration="4927000" />
+      <workItem from="1587489799065" duration="6464000" />
     </task>
     <servers />
   </component>
@@ -182,29 +174,29 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1587492099530" />
-    <state x="167" y="52" key="CommitChangelistDialog2" timestamp="1587499904261">
+    <state x="167" y="52" key="CommitChangelistDialog2" timestamp="1587502265013">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="167" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587499904261" />
-    <state width="1398" height="156" key="GridCell.Tab.0.bottom" timestamp="1587500263082">
+    <state x="167" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587502265013" />
+    <state width="1398" height="156" key="GridCell.Tab.0.bottom" timestamp="1587501573848">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587500263082" />
+    <state width="1398" height="156" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587501573848" />
     <state width="1398" height="156" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1587498838305" />
-    <state width="1398" height="156" key="GridCell.Tab.0.center" timestamp="1587500263073">
+    <state width="1398" height="156" key="GridCell.Tab.0.center" timestamp="1587501573846">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587500263073" />
+    <state width="1398" height="156" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587501573846" />
     <state width="1398" height="156" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1587498838304" />
-    <state width="1398" height="156" key="GridCell.Tab.0.left" timestamp="1587500263072">
+    <state width="1398" height="156" key="GridCell.Tab.0.left" timestamp="1587501573845">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587500263072" />
+    <state width="1398" height="156" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587501573845" />
     <state width="1398" height="156" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1587498838303" />
-    <state width="1398" height="156" key="GridCell.Tab.0.right" timestamp="1587500263081">
+    <state width="1398" height="156" key="GridCell.Tab.0.right" timestamp="1587501573847">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587500263081" />
+    <state width="1398" height="156" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587501573847" />
     <state width="1398" height="156" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1587498838304" />
     <state x="208" y="23" width="1024" height="831" key="SettingsEditor" timestamp="1587491558479">
       <screen x="0" y="0" width="1440" height="900" />
