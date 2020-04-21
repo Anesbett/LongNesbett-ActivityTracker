@@ -10,6 +10,7 @@ public class User {
     private Integer userHeight = 66;
     private Integer stepsTaken = 5475;
     private String userGoal = "I want to run a mile in under 9 minuets";
+    private Integer userHeartRate;
     private Clock userTime;
 
     /**
@@ -148,6 +149,13 @@ public class User {
         calories = Math.round(calories);
         return calories;
     }
+
+    public void setHeartRate(int heartRate){
+        this.userHeartRate = heartRate;
+    }
+
+    public int getHeartRate(){ return this.userHeartRate; }
+
 }
 
 

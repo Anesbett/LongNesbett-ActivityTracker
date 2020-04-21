@@ -1,5 +1,6 @@
 package ActivityTracker;
 
+import ActivityTracker.Models.HeartMonitor;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
@@ -9,6 +10,7 @@ import ActivityTracker.Models.Clock;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import ActivityTracker.Models.User;
+import java.util.concurrent.TimeUnit;
 
 
 
@@ -17,8 +19,11 @@ public class ActivityTracker extends Application {
 
     public static Clock clock = new Clock();
     public static User user = new User();
+    public static HeartMonitor heartRateMonitor = new HeartMonitor();
 
-    public static void main(String[] args) {
+    //emulating heart rate
+
+    public static void main(String[] args){
         launch(args);
     }
 
