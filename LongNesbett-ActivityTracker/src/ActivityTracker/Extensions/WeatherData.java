@@ -2,6 +2,7 @@ package ActivityTracker.Extensions;
 
 import javafx.scene.image.Image;
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -14,7 +15,7 @@ import java.net.URL;
 public class WeatherData {
     private static HttpURLConnection connection;
 
-    public static JSONObject getSingleForecast() {
+    public static JSONObject getSingleForecast() throws JSONException {
         // Try to connect to the API
         BufferedReader reader;
         String line;

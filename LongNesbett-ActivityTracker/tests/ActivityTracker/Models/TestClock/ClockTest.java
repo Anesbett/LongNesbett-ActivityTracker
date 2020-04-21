@@ -1,6 +1,6 @@
-package ActivityTracker.Models;
+package ActivityTracker.Models.TestClock;
 
-import org.junit.jupiter.api.RepeatedTest;
+import ActivityTracker.Models.Clock;
 import org.junit.jupiter.api.Test;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;

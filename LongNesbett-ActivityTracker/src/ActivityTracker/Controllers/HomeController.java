@@ -13,6 +13,7 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.control.Label;
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 
@@ -36,10 +37,25 @@ public class HomeController implements Initializable {
         clockLabel.setText(ActivityTracker.clock.getTime());
         System.out.println("You have made it to the home controller");
 
-        JSONObject forecast = WeatherData.getSingleForecast();
+        JSONObject forecast = null;
+        try {
+            forecast = WeatherData.getSingleForecast();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
-        JSONArray forecastArray = forecast.getJSONArray("weather");
-        String currentWeather = forecastArray.getJSONObject(0).getString("main");
+        JSONArray forecastArray = null;
+        try {
+            forecastArray = forecast.getJSONArray("weather");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        String currentWeather = null;
+        try {
+            currentWeather = forecastArray.getJSONObject(0).getString("main");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
         weatherLabel.setText(currentWeather);
         goalLabel.setText(ActivityTracker.user.getUsersGoal());

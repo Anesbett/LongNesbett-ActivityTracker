@@ -11,6 +11,7 @@ import ActivityTracker.Extensions.WeatherData;
 
 import javafx.scene.layout.Pane;
 import org.json.JSONArray;
+import org.json.JSONException;
 import org.json.JSONObject;
 
 public class WeatherController implements Initializable {
@@ -30,15 +31,50 @@ public class WeatherController implements Initializable {
     public void initialize(URL location, ResourceBundle resources) {
         Layout.setUpView(Weather);
         System.out.println("You have made it to the weather controller");
-        JSONObject forecast = WeatherData.getSingleForecast();
+        JSONObject forecast = null;
+        try {
+            forecast = WeatherData.getSingleForecast();
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
-        JSONArray forecastArray = forecast.getJSONArray("weather");
-        String currentWeather = forecastArray.getJSONObject(0).getString("main");
-        String usersLocation = forecast.getString("name");
+        JSONArray forecastArray = null;
+        try {
+            forecastArray = forecast.getJSONArray("weather");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        String currentWeather = null;
+        try {
+            currentWeather = forecastArray.getJSONObject(0).getString("main");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        String usersLocation = null;
+        try {
+            usersLocation = forecast.getString("name");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
-        JSONObject temperatureObj = forecast.getJSONObject("main");
-        Double temperature = temperatureObj.getDouble("temp");
-        Double humidity = temperatureObj.getDouble("humidity");
+        JSONObject temperatureObj = null;
+        try {
+            temperatureObj = forecast.getJSONObject("main");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        Double temperature = null;
+        try {
+            temperature = temperatureObj.getDouble("temp");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
+        Double humidity = null;
+        try {
+            humidity = temperatureObj.getDouble("humidity");
+        } catch (JSONException e) {
+            e.printStackTrace();
+        }
 
         String convertedTemp = convertTemperature(temperature);
 

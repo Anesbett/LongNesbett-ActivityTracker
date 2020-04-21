@@ -1,16 +1,15 @@
-package ActivityTracker.Models;
+package ActivityTracker.Models.TestClock;
 
-import org.junit.jupiter.api.AfterEach;
+import ActivityTracker.Models.Clock;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.RepeatedTest;
-import org.junit.jupiter.api.Test;
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.logging.Logger;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ClockTestAddOne {
+class ClockTestminusOne {
 
     private Clock clock = new Clock();
     private DateTimeFormatter testTimeFormatter = DateTimeFormatter.ofPattern("h:mm");
@@ -22,17 +21,15 @@ class ClockTestAddOne {
      */
     @BeforeEach
     void beforeEach(){
-        testNowTime = testNowTime.plusMinutes(1);
+        testNowTime = testNowTime.minusMinutes(1);
         testTime = testTimeFormatter.format(testNowTime);
     }
 
     /**
-     * This function tests the addOne function of the Clock model.
-     * The test will run 25 times and add 1 minute each time.
-     * @expected current local time + 1 minute each method call
+     * This function tests the minusOne function of the Clock model.
+     * The test will run 25 times and subtract 1 minute each time.
+     * @expected current local time - 1 minute each method call
      */
     @RepeatedTest(25)
-    void addOne() {
-        assertEquals(testTime, clock.addOne());
-    }
+    void minusOne() { assertEquals(testTime, clock.minusOne()); }
 }
