@@ -6,27 +6,27 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Font?>
 
 <AnchorPane fx:id="Home" prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ActivityTracker.Controllers.HomeController">
     <children>
-        <Label fx:id="clockLabel" layoutX="90.0" layoutY="32.0" textFill="WHITE" AnchorPane.leftAnchor="60.0" AnchorPane.topAnchor="25.0">
+        <Label fx:id="clockLabel" alignment="CENTER" layoutX="9.0" layoutY="32.0" prefHeight="121.0" prefWidth="396.0" textAlignment="CENTER" textFill="WHITE" AnchorPane.leftAnchor="9.0" AnchorPane.topAnchor="25.0">
          <font>
             <Font name="Lucida Grande" size="100.0" />
-         </font></Label>
+         </font>
+        </Label>
       <Pane layoutX="410.0" layoutY="-1.0" prefHeight="500.0" prefWidth="90.0" style="-fx-background-color: #1d1d1d;" />
-      <ImageView fitHeight="84.0" fitWidth="105.0" layoutX="149.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="weatherIcon" fitHeight="84.0" fitWidth="185.0" layoutX="160.0" layoutY="181.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@img/PartlyCloudy.png" />
+            <Image url="@img/clear.png" />
          </image>
       </ImageView>
-      <Label layoutX="137.0" layoutY="283.0" text="Partly Cloudy" textFill="WHITE">
+      <Label fx:id="weatherLabel" alignment="CENTER" layoutX="41.0" layoutY="283.0" prefHeight="25.0" prefWidth="324.0" text="Partly Cloudy" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Lucida Grande" size="20.0" />
          </font>
       </Label>
-      <Pane layoutX="182.0" layoutY="332.0" prefHeight="3.0" prefWidth="39.0" style="-fx-background-color: #F6A623; -fx-border-radius: 20;" />
-      <Label contentDisplay="TOP" layoutX="88.0" layoutY="361.0" prefHeight="74.0" prefWidth="228.0" text="My goal is to run a mile &#10;in under 7 minuets" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP">
+      <Pane layoutX="184.0" layoutY="331.0" prefHeight="3.0" prefWidth="39.0" style="-fx-background-color: #F6A623; -fx-border-radius: 20;" />
+      <Label fx:id="goalLabel" contentDisplay="TOP" layoutX="88.0" layoutY="361.0" prefHeight="74.0" prefWidth="228.0" text="My goal is to run a mile &#10;in under 7 minuets" textAlignment="CENTER" textFill="WHITE" textOverrun="CLIP" wrapText="true">
          <font>
             <Font size="20.0" />
          </font>
