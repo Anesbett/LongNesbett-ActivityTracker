@@ -7,8 +7,6 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.layout.Pane;
 import javafx.scene.control.Label;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 
 import javafx.scene.control.TextField;
@@ -39,7 +37,7 @@ public class SettingsController implements Initializable {
         goalTextField.setText(ActivityTracker.user.getUsersGoal());
 
     }
-    
+
     /**
      * Method that updates goal text
      */

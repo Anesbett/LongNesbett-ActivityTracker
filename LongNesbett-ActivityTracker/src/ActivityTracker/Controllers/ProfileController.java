@@ -23,6 +23,8 @@ public class ProfileController implements Initializable {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
+        ActivityTracker.user.setHeartRate(ActivityTracker.heartRateMonitor.getHeartRate());
+        System.out.println(ActivityTracker.user.getHeartRate());
         Layout.setUpView(Profile);
         System.out.println("You have made it to the profile controller");
         String steps = ActivityTracker.user.getUsersStepCount().toString();
