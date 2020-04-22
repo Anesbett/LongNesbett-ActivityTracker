@@ -2,7 +2,7 @@ package ActivityTracker.Controllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-
+import java.util.ResourceBundle;
 import ActivityTracker.ActivityTracker;
 import ActivityTracker.Extensions.Layout;
 import javafx.scene.image.ImageView;
@@ -35,17 +35,29 @@ public class ProfileController implements Initializable {
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         ActivityTracker.user.setHeartRate(ActivityTracker.heartRateMonitor.getHeartRate());
-        System.out.println(ActivityTracker.user.getHeartRate());
+        updateNewHeartRate();
         Layout.setUpView(Profile);
         System.out.println("You have made it to the profile controller");
         String steps = ActivityTracker.user.getUsersStepCount().toString();
         stepLabel.setText(steps);
         calorieLabel.setText(ActivityTracker.user.getUsersCalorieCount(steps).toString());
-        sleepStatus.setText("Sleeping");
-        heartRate.setText("Heart Rate: "+ 69 +" bpm");
-        sleepImage.setImage(sleepyImage);
+        alseep();
+    }
 
+    @FXML
+    public void updateNewHeartRate(){
+        heartRate.setText(ActivityTracker.user.getHeartRate().toString());
+    }
 
-
+    @FXML
+    public void alseep(){
+        if (ActivityTracker.clock.isBedTime() == true){
+            sleepStatus.setText("Asleep");
+            sleepImage.setImage(sleepyImage);
+        }
+        else {
+            sleepStatus.setText("Awake");
+            sleepImage.setImage(awakeImage);
+        }
     }
 }
