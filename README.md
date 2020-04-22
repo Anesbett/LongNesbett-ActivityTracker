@@ -30,11 +30,11 @@ You may need to install the JavaFX librarys to get the User Interface to work. T
 ### Option 5: Editing Configurations 
 You may just need to esablish your inital configration to the Acvtivity Tracker. To do this go to the dropdown at the top right and click Eit Configurations and add the following to the given fields. 
 
-Main Class: ActivityTracker.ActivityTracker
-VM OPtions: --module-path /path/to/javafx-sdk-{YOUR JAVA 13 VERSION}/lib --add-modules javafx.controls,javafx.fxml
-Working Directory: /path/to/LongNesbett-ActivityTracker
-Use Classpath of Module: LongNesbett-ActivityTracker
-JRE: 13
+Main Class: ActivityTracker.ActivityTracker<br>
+VM OPtions: --module-path /path/to/javafx-sdk-{YOUR JAVA 13 VERSION}/lib --add-modules javafx.controls,javafx.fxml<br>
+Working Directory: /path/to/LongNesbett-ActivityTracker<br>
+Use Classpath of Module: LongNesbett-ActivityTracker<br>
+JRE: 13<br>
 
 
 Following these steps should endure the application is able to build if not successful upon first launch. 
