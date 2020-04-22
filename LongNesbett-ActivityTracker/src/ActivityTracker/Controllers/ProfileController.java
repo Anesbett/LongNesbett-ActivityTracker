@@ -2,12 +2,10 @@ package ActivityTracker.Controllers;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import java.util.ResourceBundle;
 import ActivityTracker.ActivityTracker;
 import ActivityTracker.Extensions.Layout;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.Image;
-
 import javafx.scene.control.Label;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -51,7 +49,7 @@ public class ProfileController implements Initializable {
 
     @FXML
     public void alseep(){
-        if (ActivityTracker.clock.isBedTime() == true){
+        if (ActivityTracker.clock.isBedTime()){
             sleepStatus.setText("Asleep");
             sleepImage.setImage(sleepyImage);
         }
