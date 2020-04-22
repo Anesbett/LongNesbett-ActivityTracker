@@ -1,7 +1,7 @@
 # LongNesbett-ActivityTracker
 Semester long project for CSCI 360: Software Architecture and Design
 
-### Link to the presentation: www.youtube.com.sdfbsdfiusbdfiusbdf
+### Link to the presentation: https://drive.google.com/file/d/1zXLYvYMOnhZfIcrYTRQtbx4a5tyhIRFi/view?usp=sharing
 
 # Overview
 Activity trackers, or sometimes referred to as fitness trackers, is a device or application for monitoring and tracking fitness-related metrics. Typical fitness trackers keep a record of parameters such as distance walked, calorie consumed, time asleep, and even a user's heartbeat. In 2015 the International Journal of Cardiology labeled Fitbit as an extremely accurate and reliable device for wireless physical activity tracking. Physicians at the Journal of Cardiology recognized the importance of these devices when it comes to monitoring physical activity for the prevention and maintenance of chronic diseases. 
