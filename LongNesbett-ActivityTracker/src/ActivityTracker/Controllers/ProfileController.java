@@ -46,7 +46,7 @@ public class ProfileController implements Initializable {
 
     @FXML
     public void updateNewHeartRate(){
-        heartRate.setText(ActivityTracker.user.getHeartRate().toString());
+        heartRate.setText("Heart Rate: " + ActivityTracker.user.getHeartRate().toString() + "bpm");
     }
 
     @FXML

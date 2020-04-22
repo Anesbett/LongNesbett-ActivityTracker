@@ -51,7 +51,7 @@
             <Image url="@img/awake.png" />
          </image>
       </ImageView>
-      <Label fx:id="sleepStatus" alignment="CENTER" layoutX="106.0" layoutY="399.0" prefHeight="28.0" prefWidth="198.0" text="Awake" textAlignment="CENTER" textFill="WHITE">
+      <Label fx:id="sleepStatus" alignment="CENTER" layoutX="105.0" layoutY="394.0" prefHeight="28.0" prefWidth="198.0" textAlignment="CENTER" textFill="WHITE">
          <font>
             <Font name="Lucida Grande" size="20.0" />
          </font>
