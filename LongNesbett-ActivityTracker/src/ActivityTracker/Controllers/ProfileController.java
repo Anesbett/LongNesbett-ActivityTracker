@@ -5,6 +5,8 @@ import java.util.ResourceBundle;
 
 import ActivityTracker.ActivityTracker;
 import ActivityTracker.Extensions.Layout;
+import javafx.scene.image.ImageView;
+import javafx.scene.image.Image;
 
 import javafx.scene.control.Label;
 import javafx.fxml.FXML;
@@ -19,6 +21,15 @@ public class ProfileController implements Initializable {
     private Label stepLabel;
     @FXML
     private Label calorieLabel;
+    @FXML
+    private Label sleepStatus;
+    @FXML
+    private Label heartRate;
+    @FXML
+    private ImageView sleepImage;
+
+    Image sleepyImage = new Image("ActivityTracker/Views/img/sleepy.png");
+    Image awakeImage = new Image("ActivityTracker/Views/img/awake.png");
 
 
     @Override
@@ -30,6 +41,9 @@ public class ProfileController implements Initializable {
         String steps = ActivityTracker.user.getUsersStepCount().toString();
         stepLabel.setText(steps);
         calorieLabel.setText(ActivityTracker.user.getUsersCalorieCount(steps).toString());
+        sleepStatus.setText("Sleeping");
+        heartRate.setText("Heart Rate: "+ 69 +" bpm");
+        sleepImage.setImage(sleepyImage);
 
 
 
