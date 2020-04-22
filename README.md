@@ -37,7 +37,7 @@ Use Classpath of Module: LongNesbett-ActivityTracker<br>
 JRE: 13<br>
 
 
-Following these steps should endure the application is able to build if not successful upon first launch. 
+Following these steps should ensure the application is able to build if not successful upon first launch. 
 
 
 
