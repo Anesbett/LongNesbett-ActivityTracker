@@ -80,6 +80,9 @@ public class WeatherData {
             case "Snow":
                 iconName = new Image("ActivityTracker/Views/img/snow.png");
                 break;
+            case "Partly":
+                iconName = new Image("ActivityTracker/Views/img/partly.png");
+                break;
             case "Clouds":
                 iconName = new Image("ActivityTracker/Views/img/clouds.png");
                 break;
@@ -92,3 +95,5 @@ public class WeatherData {
         return iconName;
     }
 }
+
+
