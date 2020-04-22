@@ -1,15 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="LongNesbett-ActivityTracker:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="98d75f64-611d-4be3-9503-288080f88d9b" name="Default Changelist" comment="34">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/LongNesbett_ActivityTracker_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LongNesbett-ActivityTracker.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LongNesbett-ActivityTracker.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/ActivityTracker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/ActivityTracker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/HomeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/HomeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/ProfileController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/ProfileController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/SettingsController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/SettingsController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/WeatherController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Controllers/WeatherController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Extensions/Errors.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Extensions/Errors.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Extensions/Layout.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Extensions/Layout.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Extensions/Navigator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Extensions/Navigator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Extensions/WeatherData.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Extensions/WeatherData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Models/Clock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Models/Clock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Models/HeartMonitor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Models/HeartMonitor.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Models/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Models/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/ActivityTracker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/ActivityTracker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/SceneNavigatorControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/SceneNavigatorControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/Profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LongNesbett-ActivityTracker/ActivityTracker/Views/Profile.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/LongNesbett-ActivityTracker/ActivityTracker/Models/TestClock/ClockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LongNesbett-ActivityTracker/ActivityTracker/Models/TestClock/ClockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/LongNesbett-ActivityTracker/ActivityTracker/Models/TestClock/ClockTestAddOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LongNesbett-ActivityTracker/ActivityTracker/Models/TestClock/ClockTestAddOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/LongNesbett-ActivityTracker/ActivityTracker/Models/TestClock/ClockTestminusOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LongNesbett-ActivityTracker/ActivityTracker/Models/TestClock/ClockTestminusOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/LongNesbett-ActivityTracker/ActivityTracker/Models/TestUser/UserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/LongNesbett-ActivityTracker/ActivityTracker/Models/TestUser/UserTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Controllers/ProfileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Controllers/ProfileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Controllers/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Controllers/SettingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Models/Clock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Models/Clock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ActivityTracker/Views/Profile.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ActivityTracker/Views/Profile.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,14 +49,9 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>7 min</find>
-      <find>Textfield</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="88" />
@@ -47,6 +67,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587356273050" />
@@ -153,18 +178,9 @@
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1582403443773" duration="1880000" />
       <workItem from="1582579940064" duration="548000" />
-      <workItem from="1587489799065" duration="9424000" />
+      <workItem from="1587489799065" duration="14162000" />
     </task>
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -182,37 +198,57 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="158" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1587508844431" />
+    <state x="458" y="228" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1587512787883">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="228" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1440.900@0.0.1440.900" timestamp="1587512787883" />
+    <state x="558" y="155" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1587516253177">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="558" y="155" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1440.900@0.0.1440.900" timestamp="1587516253177" />
     <state x="167" y="52" key="CommitChangelistDialog2" timestamp="1587502265013">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="167" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587502265013" />
-    <state width="1398" height="156" key="GridCell.Tab.0.bottom" timestamp="1587509960424">
+    <state width="1398" height="156" key="GridCell.Tab.0.bottom" timestamp="1587517751487">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587509960424" />
+    <state width="1398" height="156" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1587517751487" />
     <state width="1398" height="156" key="GridCell.Tab.0.bottom/0.23.1440.830@0.23.1440.830" timestamp="1587503811205" />
-    <state width="1398" height="156" key="GridCell.Tab.0.center" timestamp="1587509960421">
+    <state width="1398" height="156" key="GridCell.Tab.0.center" timestamp="1587517751484">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587509960421" />
+    <state width="1398" height="156" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1587517751484" />
     <state width="1398" height="156" key="GridCell.Tab.0.center/0.23.1440.830@0.23.1440.830" timestamp="1587503811201" />
-    <state width="1398" height="156" key="GridCell.Tab.0.left" timestamp="1587509960420">
+    <state width="1398" height="156" key="GridCell.Tab.0.left" timestamp="1587517751483">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587509960420" />
+    <state width="1398" height="156" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1587517751483" />
     <state width="1398" height="156" key="GridCell.Tab.0.left/0.23.1440.830@0.23.1440.830" timestamp="1587503811187" />
-    <state width="1398" height="156" key="GridCell.Tab.0.right" timestamp="1587509960422">
+    <state width="1398" height="156" key="GridCell.Tab.0.right" timestamp="1587517751486">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="156" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587509960422" />
+    <state width="1398" height="156" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1587517751486" />
     <state width="1398" height="156" key="GridCell.Tab.0.right/0.23.1440.830@0.23.1440.830" timestamp="1587503811203" />
-    <state x="208" y="23" width="1024" height="828" key="SettingsEditor" timestamp="1587508154871">
+    <state x="433" y="173" key="MultipleFileMergeDialog" timestamp="1587516110314">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="208" y="23" width="1024" height="828" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587508154871" />
-    <state x="492" y="199" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587497655878">
+    <state x="433" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1587516110314" />
+    <state x="287" y="23" width="1024" height="828" key="SettingsEditor" timestamp="1587516685986">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="492" y="199" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1587497655878" />
+    <state x="287" y="23" width="1024" height="828" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1587516685986" />
+    <state x="437" y="366" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1587516705734">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="437" y="366" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1587516705734" />
+    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587516097074">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="509" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1587516097074" />
+    <state x="492" y="199" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1587516708021">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="492" y="199" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1587516708021" />
   </component>
 </project>
