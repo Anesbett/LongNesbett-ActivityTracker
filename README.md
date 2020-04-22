@@ -12,7 +12,7 @@ For our semater long project is Software Architecuture and Design, we will be bu
 
 ``` git clone https://github.com/ctlong12/LongNesbett-ActivityTracker.git```
 
-Ideally, the program should work as soon as it it clones. However, if it doesnt seem to be oerkig we can trouble shoot it a little bit. 
+Ideally, the program should work as soon as it it clones. However, if it doesnt seem to be working we can trouble shoot it a little bit. 
 
 ### Option 1: Java SDK 13
 The Activity Tracker needs to run on Java SDK 13. To check this go to File > Project Structure > Modules and make sure Java SDK 13 is selected
