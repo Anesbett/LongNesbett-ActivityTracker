@@ -1,4 +1,4 @@
-# Java. Smart Watch - Activity Tracker
+# Java Smart Watch - Activity Tracker
 Semester long project for CSCI 360: Software Architecture and Design
 
 # Overview
