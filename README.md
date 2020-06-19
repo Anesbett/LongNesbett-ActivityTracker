@@ -4,7 +4,7 @@ Semester long project for CSCI 360: Software Architecture and Design
 # Overview
 Activity trackers, or sometimes referred to as fitness trackers, is a device or application for monitoring and tracking fitness-related metrics. Typical fitness trackers keep a record of parameters such as distance walked, calorie consumed, time asleep, and even a user's heartbeat. In 2015 the International Journal of Cardiology labeled Fitbit as an extremely accurate and reliable device for wireless physical activity tracking. Physicians at the Journal of Cardiology recognized the importance of these devices when it comes to monitoring physical activity for the prevention and maintenance of chronic diseases. 
 
-For our semater long project is Software Architecuture and Design, we will be building an Activity Tracker that helps users with thir daily exersice habits
+For our semater long project in Software Architecuture and Design, we will be building an Activity Tracker that helps users with their daily exersice habits
 
 ## Getting Started
 
@@ -26,7 +26,7 @@ The JUnit package we use for texting may not be connected right away. To link th
 You may need to install the JavaFX librarys to get the User Interface to work. To install the library go to File > Project Structure > Modules. Find to where you downloaded JavaFX and import the lib folder from your JavaFX Package. 
 
 ### Option 5: Editing Configurations 
-You may just need to esablish your inital configration to the Acvtivity Tracker. To do this go to the dropdown at the top right and click Eit Configurations and add the following to the given fields. 
+You may just need to esablish your inital configration to the Acvtivity Tracker. To do this go to the dropdown at the top right and click Edit Configurations and add the following to the given fields. 
 
 Main Class: ActivityTracker.ActivityTracker<br>
 VM OPtions: --module-path /path/to/javafx-sdk-{YOUR JAVA 13 VERSION}/lib --add-modules javafx.controls,javafx.fxml<br>
